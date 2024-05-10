@@ -1,0 +1,64 @@
+.login-container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f5f5f5;
+}
+
+.login-form {
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  margin-top: 0;
+}
+
+.forgot-password {
+  font-size: 14px;
+  color: #337ab7;
+  text-decoration: none;
+}
+
+.sign-up {
+  font-size: 14px;
+  color: #337ab7;
+  text-decoration: none;
+}
+
+.social-login {
+  margin-top: 20px;
+}
+
+.social-login a {
+  margin-right: 10px;
+  font-size: 24px;
+  color: #337ab7;
+}
+
+.social-login a:hover {
+  color: #23527c;
+}
+.gd-carousel-wrapper {
+  position:relative;
+
+}
+
+.gd-carousel {
+  position:unset;
+}
+.gd-carousel .react-multiple-carousel__arrow {
+    position:absolute;
+}
+
+.gd-carousel .react-multiple-carousel__arrow--left {
+    left: calc(-3% + 1px)
+}
+
+.gd-carousel .react-multiple-carousel__arrow--right {
+    right: calc(-3% + 1px)
+}
